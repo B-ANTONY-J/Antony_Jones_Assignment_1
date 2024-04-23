@@ -44,8 +44,10 @@ body {
 }
 .section-2-flex-1 {
   flex-grow: 2;
-  padding-right:25px;
+  /* padding-right:25px; */
   background-color: #431AF3;
+  padding-left: 100px;
+  transform: scale(1.27);
 }
 .section-2-flex-2 {
   flex-grow: 1;
@@ -54,6 +56,7 @@ body {
   border: 10px solid #431AF3;
   background-clip: padding-box;
   background-image: linear-gradient(to bottom right, #431AF3, #431AF3);
+  margin-left: 50px;
 }
 .section-2-p1 {
   font-size: 31px;
@@ -90,7 +93,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 125px;
+  padding-left: 45px;
 }
 .section-4-div-1 {
   flex-grow: 1;
@@ -103,6 +106,7 @@ body {
 }
 .sect-4L {
   padding-right: 75px;
+  font-size: small;
 }
 .section-4LR-p1 {
   font-weight: 900;
@@ -110,18 +114,22 @@ body {
 }
 .section-4LR-p2-p3 {
   font-weight: 800;
+  font-size: 13px;
   
 }
-
+.section-4p {
+  font-size: small;
+}
 .section-4L-p4 {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-underline-offset: 8px;
   font-weight: 800;
-  font-size: 17px;
+  font-size: 15px;
 }
 .section-4L-move {
-  padding-bottom: 45px;
+  /* padding-bottom: 45px; */
+  margin-top: 50px;
 }
 .section-4R-move {
   margin-top: -25px;
