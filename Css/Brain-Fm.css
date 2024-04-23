@@ -1,5 +1,5 @@
 body {
-  background-color: #4f04b9;
+  background-color: #431AF3;
   font-family: Arial, Helvetica, sans-serif;
 }
 .main-div {
@@ -32,8 +32,9 @@ body {
   font-weight: bold;
 }
 .init_picture {
-  width: 990x;
-  height: 627.576px;
+  width: 375px;
+  height: 375px;
+  margin: 25px 33px 50px 33px;
 }
 .section-2-focus {
   display: flex;
@@ -43,23 +44,28 @@ body {
 }
 .section-2-flex-1 {
   flex-grow: 2;
+  padding-right:25px;
+  background-color: #431AF3;
 }
 .section-2-flex-2 {
   flex-grow: 1;
-  padding-left: 60px;
-  background-color: #4f04b9;
+  padding-left: 15px;
+  background-color: #431AF3;
+  border: 10px solid #431AF3;
+  background-clip: padding-box;
+  background-image: linear-gradient(to bottom right, #431AF3, #431AF3);
 }
 .section-2-p1 {
-  font-size: 43px;
+  font-size: 31px;
   margin-bottom: 14px;
 }
 .section-2-p2 {
-  font-size: 48px;
+  font-size: 37px;
   font-weight: bold;
   margin-top: 14px;
 }
 .section-2-p3 {
-  font-size: 33px;
+  font-size: 15px;
   font-weight: lighter;
 }
 .section-2-button {
@@ -73,7 +79,7 @@ body {
 }
 .section-3-header-mid {
   align-content: center;
-  padding: 125px 0 125px 755px;
+  padding: 95px 0 85px 655px;
 }
 .picture-3 {
   width: 425px;
@@ -93,6 +99,10 @@ body {
 .section-4-div-2 {
   flex-grow: 1;
   padding-right: 300px;
+  padding-top: 95px;
+}
+.sect-4L {
+  padding-right: 75px;
 }
 .section-4LR-p1 {
   font-weight: 900;
@@ -100,6 +110,7 @@ body {
 }
 .section-4LR-p2-p3 {
   font-weight: 800;
+  
 }
 
 .section-4L-p4 {
@@ -113,5 +124,7 @@ body {
   padding-bottom: 45px;
 }
 .section-4R-move {
+  margin-top: -25px;
   padding-top: 75px;
+  padding-left: 45px;
 }
